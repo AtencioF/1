@@ -1,0 +1,71 @@
+body{
+        background-color: #ff6e6e;
+}
+#imgA{
+        display: inline-block;
+        padding-top: 10px;
+        padding-right: 1300px;
+}
+header{
+        text-align: center;
+}
+h1{
+        display: inline-block;
+        
+
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+}
+.textoBruto{
+        display: inline-block;
+}
+
+#textoVARIABLE{
+        display: inline-block;
+}
+.recuadroDesifrado{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-top: 10px;
+}
+#textoDesifrado{
+        display: inline-block;
+        right: 20px;                         
+        box-sizing: border-box;
+        border-color: #000000;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 20px;    
+}
+.recuadroDesifrado{
+        display: inline-block;
+        right: 20px;
+        margin: 0 2%;
+
+
+        text-align: center;
+        
+}
+.imgParaMostrar{
+        padding-top: 10px;
+}
+#imgPerrito{
+       transform: scale(90%);
+       border-radius: 20px;    
+
+}
+
+.botones{
+        display: inline-block;
+        left: 500px;
+        top:100px;
+        background-color:#ff6e6e;
+        border-radius: 15px;
+        padding: 10px;        
+        
+}
+.borrar{
+        opacity: 0;
+	transition: 0.5s;
+}
